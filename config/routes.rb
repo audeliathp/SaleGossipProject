@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get "dynamic_pages/show_gossip"
   get "show_user/:id", to: "dynamic_pages#show_user", as: "show_user"
   get "dynamic_pages/show_user"
+  get "welcome/:id", to: "dynamic_pages#welcome", as: "welcome"
+  get "dynamic_pages/welcome"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

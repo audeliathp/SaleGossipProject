@@ -1,24 +1,17 @@
-# README
+***SaleGossipProject***
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici une application qui affiche quelques pages statiques, un système de landing pages personnalisées, un index et un show de potins. Le tout avec Bootstrap et un header qui a les bons liens.
 
-Things you may want to cover:
 
-* Ruby version
+--Pour démarrer le programme--
 
-* System dependencies
+*Initialiser l'application*
+bundle install
+rails db:migrate
+rails db:seed
 
-* Configuration
+*Lancer le serveur*
+rails server ou rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Ouvrir une page dans le navigateur*
+taper le lien localhost/3000/index
